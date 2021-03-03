@@ -7,4 +7,4 @@ Iii)replacing  helping verbs  e.g “am ” with “are” to check for subject 
 3)Train another model to covert speech to text.\
 4)During testing ,speech is converted to text ,the incorrect text is then corrected using the previous model.We are using model for correction because during testing.\
 we will not have correct sentence from where one can verify unlike other problems.\
-5)Similarity score is calculated between input sentence the output sentence to detect the errors.
+5)Similarity score is calculated between input sentence and the corrected the output sentence to detect the errors.
