@@ -3,7 +3,7 @@
  
 
 
-## Verson 0
+## Version 0
 ### Pronunciation
 When a person pronounces incorrectly then the spectrogram  of that word will be different from the spectrogram of actual pronunciation of the same  word.One can calculate the difference between the two to know if he/she has pronounced incorrectly.
 ### Grammatical errors
