@@ -1,9 +1,13 @@
-## Assumption:
-**This will not consider fluency into account since it is not neccessary that a person who is proficient should be fluent**.
+
+
  
 
 
 ## Version 0
+### Fluency
+1.Extracted various features such as mfccs,,zero-crossing rate, spectral flux, root mean square energy from audio data set
+2.Then used various machine learning (SVM, RF,) and Deep Learning(MLP, CNN, RNN) for classification which is then trained on 70 percent data and 30 percent for test.
+3.The random forest seemed to perform better because even though for other models accuracy was high for the test set, it has high false positive and false negative, whereas for random forest only 4 samples FP and FN
 ### Pronunciation
 When a person pronounces incorrectly then the spectrogram  of that word will be different from the spectrogram of actual pronunciation of the same  word.One can calculate the difference between the two to know if he/she has pronounced incorrectly.
 ### Grammatical errors
